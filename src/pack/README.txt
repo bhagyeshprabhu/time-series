@@ -1,6 +1,4 @@
-System Requirement for development:
-* Java 1.7+
-* Scala 2.11+
+System Requirement: Java 1.7+
 
 This application is responsible for computing local information within a rolling time window of length T, such as the number of
 points in the window, the minimum, maximum, or the rolling sum.
@@ -38,7 +36,8 @@ T V N RS MinV MaxV
 
 Given an input filename as a single argument, produces a table similar to the one above. 
 
+To execute the application execute file 'process-time-series' by:
+process-time-series {filename}
 
-Execute the application with command --> activator "run data.txt"
-
-Create a delivery package with command --> activator pack-archive
+For e.g.
+process-time-series data.txt
