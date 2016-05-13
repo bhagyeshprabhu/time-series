@@ -36,7 +36,7 @@ T V N RS MinV MaxV
 
 Given an input filename as a single argument, produces a table similar to the one above. 
 
-To execute the application execute file 'process-time-series' by:
+To execute the application execute file 'process-time-series' in bin directory by:
 process-time-series {filename}
 
 For e.g.
